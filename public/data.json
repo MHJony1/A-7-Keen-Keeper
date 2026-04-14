@@ -9,7 +9,7 @@
     "tags": ["college", "close friend"],
     "bio": "Met during university orientation. Loves football and late-night chats.",
     "goal": 14,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "Feb 27, 2026"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["office", "project team"],
     "bio": "Works in the same team. Very helpful and great at presentations.",
     "goal": 10,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "April 19, 2026"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "tags": ["school", "gaming"],
     "bio": "School friend. We still play online games together sometimes.",
     "goal": 14,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "March 14, 2026"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tags": ["travel", "friend"],
     "bio": "Met during a trip to Thailand. Loves photography and coffee.",
     "goal": 20,
-    "next_due_date": "2026-04-10"
+    "next_due_date": "May 25, 2026"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["gym", "fitness"],
     "bio": "Gym partner. Keeps me motivated to stay consistent.",
     "goal": 7,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "June 6, 2026"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["university", "study group"],
     "bio": "Study group member. Very focused and organized.",
     "goal": 16,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "Aug 12, 2026"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["neighbour", "childhood"],
     "bio": "Childhood friend from my hometown. We used to play cricket together.",
     "goal": 20,
-    "next_due_date": "2026-04-05"
+    "next_due_date": "Sep 26, 2026"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "tags": ["freelance", "client"],
     "bio": "Freelance client turned friend. Easy to work with and friendly.",
     "goal": 10,
-    "next_due_date": "2026-04-21"
+    "next_due_date": "Nov 29, 2026"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "tags": ["book club", "reading"],
     "bio": "Met at a book club. Loves mystery novels and discussions.",
     "goal": 14,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "Dec 12, 2026"
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "tags": ["startup", "business"],
     "bio": "Startup enthusiast. Always sharing new business ideas.",
     "goal": 7,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "Jan 8, 2026"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "tags": ["design", "creative"],
     "bio": "Met at a design workshop. খুব creative আর illustration এ দারুণ skilled.",
     "goal": 12,
-    "next_due_date": "2026-04-21"
+    "next_due_date": "July 16, 2026"
   },
   {
     "id": 12,
@@ -141,6 +141,6 @@
     "tags": ["university", "debate club"],
     "bio": "University debate club er friend. Argument e always strong points dey.",
     "goal": 15,
-    "next_due_date": "2026-04-12"
+    "next_due_date": "Feb 28, 2026"
   }
 ]

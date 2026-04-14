@@ -4,10 +4,22 @@ import './index.css'
 import { ToastContainer } from 'react-toastify'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router/Routes'
+import FriendsListProvider from './context/FriendsListProvider'
 
 createRoot(document.getElementById('root')).render(
+ 
   <StrictMode>
-    <RouterProvider router={router} />
-    <ToastContainer />
+     <FriendsListProvider>
+       <RouterProvider router={router} />
+       <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        pauseOnHover
+        theme="dark"
+       />
+    
+       </FriendsListProvider>
+   
   </StrictMode>,
 )
