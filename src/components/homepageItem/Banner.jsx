@@ -41,9 +41,11 @@ const Banner = () => {
       </div>
       
       {/* Bottom Border/Divider like the image */}
-      <div className="mt-16 border-b border-gray-100 w-full"></div>
+      <div className="mt-16 border-b border-gray-200 w-full"></div>
     </div>
   );
 };
 
 export default Banner;
+
+

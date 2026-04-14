@@ -21,7 +21,7 @@ const Navbar = () => {
           <img 
             src={logoImage} 
             alt="KeenKeeper Logo" 
-            className="h-8 w-auto object-contain"
+            className="h-10 w-auto object-contain"
           />
         </NavLink>
 
