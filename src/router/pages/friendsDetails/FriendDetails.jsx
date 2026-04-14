@@ -102,7 +102,7 @@ const FriendDetails = () => {
             <p className='mt-5 text-gray-500 italic text-sm font-medium leading-relaxed px-4'>
               "{expectedfriend.bio || "No bio available"}"
             </p>
-            <p className='text-sm text-gray-400 mt-2 font-semibold tracking-normal'>Preferred: Email</p>
+            <p className='text-sm text-gray-400 mt-2 font-semibold tracking-normal'>Preferred: {expectedfriend.email}</p>
           </div>
 
           <div className='space-y-3 font-bold'>
