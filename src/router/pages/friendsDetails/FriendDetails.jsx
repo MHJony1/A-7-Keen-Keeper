@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import useFriendList from '../../../hooks/useFriendList';
@@ -14,34 +13,32 @@ import { toast } from 'react-toastify';
 const FriendDetails = () => {
   const { id } = useParams();
   const { friendList, loading } = useFriendList();
-  
   const { friendsData, setFriendsData, setTimelineData } = useContext(FriendsListContext);
-  
-  const expectedfriend = friendList?.find((friend) => friend.id === parseInt(id));
+   const expectedfriend = friendList?.find((friend) => friend.id === parseInt(id));
 
-      const handleInteraction = (type) => {
-
-     setTimelineData(prev => {
+    const handleInteraction = (type) => {
+      setTimelineData(prev => {
        const newInteraction = {
-        id: Date.now(), // Ekhane call korle impure warning ashbe na
+        id: Date.now(), 
         type: type,
         friendName: expectedfriend.name,
         date: new Date().toLocaleDateString('en-US', { 
           month: 'short', 
           day: 'numeric', 
-          year: 'numeric' 
+          year: 'numeric',
+          hour: '2-digit',    
+          minute: '2-digit',  
+          hour12: true 
          }),
         icon: type === 'Call' ? callIcon : type === 'Text' ? textIcon : videoIcon
       };
       return [newInteraction, ...(prev || [])];
      });
 
-  
   const isAlreadyFriend = friendsData.find(f => f.id === expectedfriend.id);
   if (!isAlreadyFriend) {
     setFriendsData([...friendsData, expectedfriend]);
   }
-
   toast.success(`${type} interaction recorded with ${expectedfriend.name}`);
 };
 
